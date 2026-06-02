@@ -1,0 +1,4 @@
+boto3
+cyvcf2==0.32.1
+pandas==3.0.1
+pyiceberg[pyarrow]==0.11.1

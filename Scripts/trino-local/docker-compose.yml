@@ -1,0 +1,11 @@
+services:
+  trino:
+    image: trinodb/trino:480
+    init: true
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./etc:/etc/trino
+    environment:
+      - AWS_ACCESS_KEY_ID=
+      - AWS_SECRET_ACCESS_KEY=
